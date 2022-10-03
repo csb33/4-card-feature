@@ -1,0 +1,94 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: hsl(229, 6%, 66%);
+  background-color: hsl(0, 0%, 98%);
+}
+.header {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.container {
+  display: flex;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  box-shadow: 4px 10px 15px 5px rgba(219, 229, 239, 255);
+  border-radius: 0.5rem;
+  height: 13rem;
+  padding: 0rem;
+}
+
+.card > img {
+  display: block;
+  margin-left: auto;
+  margin-right: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: hsl(234, 12%, 34%);
+}
+
+h2 {
+  color: hsl(234, 12%, 34%);
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+h3 {
+  font-weight: 200;
+  font-size: 26px;
+}
+
+p {
+  font-size: 15px;
+  margin: 0rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+}
+
+/* PHONE: */
+@media only screen and (max-width: 375px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* DESKTOP: */
+@media only screen and (min-width: 375px) {
+  .container {
+    display: flex;
+  }
+  .card {
+    margin: 1rem;
+  }
+}
+
+.supervisor {
+  border-top: 0.3rem solid hsl(180, 62%, 55%);
+  border-radius: 0.5rem;
+  margin-bottom: 0rem;
+}
+
+.team {
+  border-top: 0.3rem solid hsl(0, 78%, 62%);
+  border-radius: 0.5rem;
+  margin-bottom: 0rem;
+}
+
+.karma {
+  border-top: 0.3rem solid hsl(34, 97%, 64%);
+  border-radius: 0.5rem;
+  margin-bottom: 0rem;
+}
+
+.calc {
+  border-top: 0.3rem solid hsl(212, 86%, 64%);
+  border-radius: 0.5rem;
+  margin-bottom: 0rem;
+}
