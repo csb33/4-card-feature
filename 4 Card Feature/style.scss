@@ -6,14 +6,12 @@ body {
   align-items: center;
   margin: 0rem;
 }
-
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .header {
   text-align: center;
   height: 161px;
@@ -26,7 +24,6 @@ body {
   margin: 0rem;
   padding-right: 0.5rem;
 }
-
 .headerSecondLine {
   margin: 0.2rem;
   padding-left: 1rem;
@@ -41,7 +38,7 @@ p {
 }
 
 .card {
-  box-shadow: 4px 10px 15px 5px rgb(219, 229, 239);
+  box-shadow: 4px 10px 15px 5px rgba(219, 229, 239, 255);
   border-radius: 0.6rem;
   margin: 1rem;
   text-align: left;
@@ -49,19 +46,15 @@ p {
   height: 222px;
   width: 311px;
 }
-
 #super {
   border-top: 5px solid #64e1dc;
 }
-
 #team {
   border-top: 5px solid #e63950;
 }
-
 #karma {
   border-top: 5px solid #fdbf00;
 }
-
 #calc {
   border-top: 5px solid #549ef2;
 }
@@ -78,8 +71,9 @@ img {
   .container {
     display: flex;
     flex-direction: row;
+
+    .inner {
+      flex-direction: column;
+    }
   }
-  .container .inner {
-    flex-direction: column;
-  }
-}/*# sourceMappingURL=style.css.map */
+}

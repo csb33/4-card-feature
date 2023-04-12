@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      rel="stylesheet"
-      href="https://fonts.google.com/specimen/Poppins/css?family=Poppins" />
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet" />
     <link
       rel="icon"
       type="image/png"
@@ -17,38 +17,36 @@
   </head>
   <body>
     <div class="header">
-      <h3>Reliable, efficient delivery</h3>
-      <h1>Powered by Technology</h1>
-      <p>
+      <h2 class="headerFirstLine">Reliable, efficient delivery</h2>
+      <h2 class="headerSecondLine">Powered by Technology</h2>
+      <p class="intro">
         Our Artificial Intelligence powered tools use millions of project data
         points to ensure that your project is successful
       </p>
     </div>
     <div class="container">
-      <div>
-        <div class="card">
-          <h2 class="supervisor">Supervisor</h2>
-          <p>Monitors activity to identify project roadblocks</p>
-          <img src="./icon-supervisor.svg" />
-        </div>
+      <div class="card" id="super">
+        <h2 class="card-super">Supervisor</h2>
+        <p>Monitors activity to identify project roadblocks</p>
+        <img src="./icon-supervisor.svg" />
       </div>
       <div class="inner">
-        <div class="card">
-          <h2 class="team">Team Builder</h2>
+        <div class="card" id="team">
+          <h2 class="card-team">Team Builder</h2>
           <p>
             Scans our talent network to create the optimal team for your project
           </p>
           <img src="./icon-team-builder.svg" />
         </div>
-        <div class="card">
-          <h2 class="karma">Karma</h2>
+        <div class="card" id="karma">
+          <h2 class="card-karma">Karma</h2>
           <p>Regularly evaluates our talent to ensure quality</p>
           <img src="./icon-karma.svg" />
         </div>
       </div>
       <div>
-        <div class="card">
-          <h2 class="calc">Calculator</h2>
+        <div class="card" id="calc">
+          <h2 class="card-calc">Calculator</h2>
           <p>
             Uses data from past projects to provide better delivery estimates
           </p>
